@@ -70,10 +70,8 @@ func main() {
 
 	bot.Handle("/start", func(m *tb.Message) {
 		bot.Send(m.Sender, `Hello there !
-
-							I am Weather Bot. I can display the weather conditions of a particular city.
-							I was made with the help of Go.
-							Creator: @C_Anirudh `)
+		I am Weather Bot. I can display the weather conditions of a particular city.
+		I was made with the help of Go.`)
 	})
 
 	bot.Handle("/help", func(m *tb.Message) {
